@@ -1,6 +1,5 @@
 import streamlit as st
 import requests
-from streamlit_lottie import st_lottie
 
 st.markdown('<h1><span style="color: #33D4FF;">🌐Scrap</span><span style="color: #3965FC;">Nexus</span></h1>', unsafe_allow_html=True)
 subheader_color = "#ADD8E6"
@@ -22,4 +21,3 @@ st.markdown(description, unsafe_allow_html=True)
 st.markdown("To visit [Myntra](https://www.myntra.com)")
 st.markdown("---")
 st.caption("Contact Us: +91 12345 67890")
-st_lottie("https://lottie.host/975cf486-1ed3-43d2-aca8-076c322049e7/szfFwjfBLB.json")
